@@ -1,0 +1,6 @@
+{
+  "name": "Mentro",
+  "description": "AI-powered mentor slot prep tool for B-school students to practice behavioral interviews, guesstimates, and case scenarios before real mentor slots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

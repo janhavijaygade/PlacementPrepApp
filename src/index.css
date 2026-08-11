@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1E33BE;
+    --primary-dark: #14237F;
+    --bg-main: #F5F6FA;
+    --card-border: #E2E4F0;
+    --text-main: #12142B;
+    --text-muted: #6B7280;
+    --accent: #FF6B4A;
+    --success: #16A34A;
+    --danger: #DC2626;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Inter', 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom Utilities for Compass Prep Brand */
+.bg-compass-primary {
+  background-color: #1E33BE;
+}
+
+.bg-compass-primary-dark {
+  background-color: #14237F;
+}
+
+.text-compass-primary {
+  color: #1E33BE;
+}
+
+.bg-compass-accent {
+  background-color: #FF6B4A;
+}
+
+.text-compass-accent {
+  color: #FF6B4A;
+}
+
+.border-compass {
+  border-color: #E2E4F0;
+}
+
+.bg-compass-bg {
+  background-color: #F5F6FA;
+}
+
+/* Custom scrollbar for chat view */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F3F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C3C8DE;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1E33BE;
+}
+
